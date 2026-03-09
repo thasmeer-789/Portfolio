@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+// import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import { Section } from "../components/Section";
 import { Container } from "../components/Container";
 import { Button } from "../components/Button";
@@ -23,6 +24,14 @@ const projects = [
         github: "https://github.com/thasmeer-789/EatStory.git",
         // live: "#"
     },
+    // {
+    //     title: "",
+    //     description: "A modern single-restaurant food ordering web application that allows customers to explore the menu, place orders easily, and track their delivery in real time.",
+    //     image: eatStory,
+    //     tech: ["HTML5", "CSS3", "JavaScript", "PHP"],
+    //     github: "https://github.com/thasmeer-789/EatStory.git",
+    //     // live: "#"
+    // }
 ];
 
 export function Projects() {
