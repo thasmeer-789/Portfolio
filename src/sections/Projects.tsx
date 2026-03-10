@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+// import { ExternalLink, Github } from "lucide-react";
 import { Github } from "lucide-react";
 import { Section } from "../components/Section";
 import { Container } from "../components/Container";
